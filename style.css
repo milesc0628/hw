@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Delius&display=swap');
 header{
-    width:100%;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav > ul{
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    justify-items: start;
+    align-content: start;
+    align-items: start;
+    gap:100px;
 }
 body{
     background-color:rgb(249, 248, 247);
@@ -11,14 +24,6 @@ section{
     font-family: sans-serif;
 }
 h1{
-    font-size: 20px;
-    align-items: start;
-    align-content: start;
-    justify-content: start;
-    justify-items: start;
-    width: 100%;
-}
-h2{
     color:rgb(82, 160, 73);
     font-size: 50px;
     text-align: center;
@@ -26,8 +31,9 @@ h2{
     border-color:rgb(58, 114, 52);
     border-style:solid;
     padding: 20px;
+    font-family: "Delius";
 }
-h3{
+h2{
     color: rgb(82, 160, 73);
     font-size: 30px;
     border-top:0px;
@@ -38,6 +44,7 @@ h3{
     border-style:solid;
     width: 500px;
     margin-bottom:0px;
+    font-family: "Delius";
 }
 img{
     display:block;
@@ -50,12 +57,35 @@ footer{
 }
 p{
 padding-top:5px;
+font-family: 'averia libre';
 }
 p > a{
 color:rgb(49, 163, 36);
 text-decoration: none;
 }
 p > a:hover{
+color:rgb(145, 26, 26);
+text-decoration:underline;
+}
+
+ul > li{
+padding-top:5px;
+font-family: 'averia libre';
+list-style: none;
+}
+
+ol > li{
+padding-top:5px;
+font-family: 'averia libre';
+list-style:lower-roman;
+}
+
+li >a{
+color:rgb(49, 163, 36);
+text-decoration: none; 
+}
+
+li > a:hover{
 color:rgb(145, 26, 26);
 text-decoration:underline;
 }
