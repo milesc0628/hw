@@ -7,8 +7,8 @@ header{
 nav > ul{
     display:grid;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: start;
     justify-items: start;
     align-content: start;
     align-items: start;
@@ -65,7 +65,7 @@ text-decoration: none;
 }
 p > a:hover{
 color:rgb(145, 26, 26);
-text-decoration:underline;
+text-decoration:none;
 }
 
 ul > li{
@@ -87,5 +87,54 @@ text-decoration: none;
 
 li > a:hover{
 color:rgb(145, 26, 26);
-text-decoration:underline;
+text-decoration:none;
 }
+
+nav >a{
+   color:rgb(49, 163, 36);
+text-decoration: none; 
+}
+nav > a:hover{
+color:rgb(145, 26, 26);
+text-decoration:none;
+}
+
+em{
+   color:rgb(145, 26, 26); 
+}
+
+strong{
+    color:rgb(145, 26, 26); 
+}
+
+.grid1{
+    display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 400px 300px 300px;
+    justify-content: start;
+    justify-items: start;
+    align-content: start;
+    align-items: start;
+    gap:10px;
+    
+}
+
+.grid2{
+   display:grid;
+    grid-template-rows: auto;
+    grid-template-columns: 400px 400px;
+    justify-content:start;
+    justify-items: start;
+    align-content: start;
+    align-items: start;
+    gap:10px; 
+}
+
+.grid3{
+    display:grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 400px 400px;
+    justify-content: start;
+    gap: 50px;
+}
+
