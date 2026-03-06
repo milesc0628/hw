@@ -1,0 +1,55 @@
+@import "style.css";
+
+header{
+    width: 60%;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 30px;
+}
+nav > ul{
+    width:100%;
+    height: auto;
+    grid-template-columns: auto;
+}
+h2{
+    width: 200px;
+}
+
+main{
+    width:90%;
+}
+
+ol > li{
+    width:35%;
+    height: auto;
+    grid-template-columns: auto;
+}
+
+footer{
+    width: 90%;
+}
+
+.grid1{
+    display:block;
+    width: 40%;
+}
+
+.grid2{
+    display:block;
+    width: 40%;
+}
+
+.grid3{
+    display:block;
+    width: 40%;
+}
+
+.description{
+    width: 40%;
+}
+
