@@ -46,6 +46,20 @@ h2{
     margin-bottom:0px;
     font-family: "Delius";
 }
+
+h3{
+    color: rgb(82, 160, 73);
+    font-size: 30px;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    border-bottom: 2px;
+    border-color:rgb(58, 114, 52);
+    border-style:solid;
+    width: 500px;
+    margin-bottom:0px;
+    font-family: "Delius";
+}
 img{
     display:block;
     width:100%;
@@ -136,4 +150,53 @@ strong{
     grid-template-rows: 400px 400px;
     justify-content: start;
     gap: 50px;
+}
+
+#cameron1 > h1{
+    color:rgb(73, 85, 160);
+    border-color:rgb(52, 63, 114);
+}
+
+#cameron > h2{
+    color:rgb(73, 85, 160);
+    border-color:rgb(52, 63, 114);
+}
+
+#cameron > h3{
+    color:rgb(73, 85, 160);
+    border-color:rgb(52, 63, 114);
+
+}
+
+#cameron > img{
+    display: block;
+    width:50%;
+    height:50%;
+    padding-top: 10px;
+}
+
+
+
+
+#casey1 > h1{
+    color:rgb(160, 73, 73);
+    border-color:rgb(160, 73, 73);
+}
+
+#casey > h2{
+    color:rgb(160, 73, 73);
+    border-color:rgb(160, 73, 73);
+}
+
+#casey > h3{
+    color:rgb(160, 73, 73);
+    border-color:rgb(160, 73, 73);
+
+}
+
+#casey > img{
+    display: block;
+    width:50%;
+    height:50%;
+    padding-top: 10px;
 }
