@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/style.css" media="only screen and (min-width:960px)">>
     <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width:480px)">
     <title>St. Adelaide Wiki</title>
+    <script src="js/imagegallery.js" defer></script>
+    <script src="js/paragraphstylings.js" defer></script>
 </head>
 <body>
     <main>
@@ -38,8 +40,8 @@
     </section>
     <section id="plot">
         <h2>Plot Summary</h2>
-        <div class="grid1">
-        <p>Cameron has lived in St. Adelaide all of his life. The town has always been strange. Everyone
+        <div id="grid1">
+<!--         <p>Cameron has lived in St. Adelaide all of his life. The town has always been strange. Everyone
             here acts as if they are disconnected from reality, and they all dedicate their lives to serving the
             town, to the point that they don’t talk about much else. The only reason he can notice its
             strangeness is because he was <em>born outside of it</em>; his parents escaped and gave birth to him
@@ -66,7 +68,7 @@
             time as they figure out what they want out of life, after being put into boxes by everyone around
             them who told them what they should do or how they should live their lives. They then are able
             to leave together and start a new fulfilling life, finally able to chase their dreams.
-        </p>
+        </p> -->
         </div>
     </section>
     <section id="story_themes">
@@ -105,12 +107,22 @@
     </section>
     <section id="gallery">
         <h2>Image Gallery</h2>
-        <div class="grid3">
-        <img src="media/corner_store.jpeg" alt="A visual representation of a corner store in St. Adelaide.">
-        <img src="media/library.jpeg" alt="A visual representation of the library in St. Adelaide.">
-        <img src="media/motel.jpeg" alt="A visual representation of St. Adelaide's motel.">
-        <img src="media/overview.jpeg" alt="A visual representation of what St. Adelaide looks like from above.">
-    </div>
+        <button id="previous">Previous</button>
+    <button id="next">Next</button>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <figure id="corner_store" class="imageGallery">
+        <img src="media/corner_store.jpeg" alt="narwhal" >
+        <figcaption >St. Adelaide's Corner Store</figcaption>
+    </figure>
+    <figure id="library" class="imageGallery">
+        <img  src="media/library.jpeg" alt="penguin" >
+        <figcaption >St. Adelaide's Library</figcaption>
+    </figure>
+    <figure id="motel" class="imageGallery">
+        <img src="media/motel.jpeg" alt="penguin">
+        <figcaption>St. Adelaide's Motel</figcaption>
+    </figure>
     </section>
     </main>
     <footer></footer>

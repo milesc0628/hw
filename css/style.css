@@ -144,12 +144,21 @@ strong{
     gap:10px; 
 }
 
-.grid3{
-    display:grid;
-    grid-template-columns: 500px 500px;
-    grid-template-rows: 400px 400px;
-    justify-content: start;
-    gap: 50px;
+figure{
+    margin-left: 0px;
+    width: 60%;
+}
+
+figcaption{
+padding-top: 10px;
+font-family: 'averia libre';
+text-align: center;
+}
+button{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: 'averia libre';
+    padding: 5px;
 }
 
 #cameron1 > h1{
